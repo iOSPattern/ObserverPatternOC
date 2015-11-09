@@ -14,6 +14,7 @@
 		9B7DD1691BEFA04B00D9D4AE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B7DD1681BEFA04B00D9D4AE /* Images.xcassets */; };
 		9B7DD16C1BEFA04B00D9D4AE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B7DD16A1BEFA04B00D9D4AE /* LaunchScreen.xib */; };
 		9B7DD1781BEFA04B00D9D4AE /* ObserverPatternOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7DD1771BEFA04B00D9D4AE /* ObserverPatternOCTests.m */; };
+		9B7DD1831BEFA2EA00D9D4AE /* SubscriptionServiceCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7DD1821BEFA2EA00D9D4AE /* SubscriptionServiceCenter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,9 @@
 		9B7DD1711BEFA04B00D9D4AE /* ObserverPatternOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObserverPatternOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B7DD1761BEFA04B00D9D4AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B7DD1771BEFA04B00D9D4AE /* ObserverPatternOCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObserverPatternOCTests.m; sourceTree = "<group>"; };
+		9B7DD1811BEFA2EA00D9D4AE /* SubscriptionServiceCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubscriptionServiceCenter.h; sourceTree = "<group>"; };
+		9B7DD1821BEFA2EA00D9D4AE /* SubscriptionServiceCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubscriptionServiceCenter.m; sourceTree = "<group>"; };
+		9B7DD1841BEFAA1000D9D4AE /* SubscriptionServiceCenterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubscriptionServiceCenterProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,9 @@
 				9B7DD1681BEFA04B00D9D4AE /* Images.xcassets */,
 				9B7DD16A1BEFA04B00D9D4AE /* LaunchScreen.xib */,
 				9B7DD15B1BEFA04B00D9D4AE /* Supporting Files */,
+				9B7DD1811BEFA2EA00D9D4AE /* SubscriptionServiceCenter.h */,
+				9B7DD1821BEFA2EA00D9D4AE /* SubscriptionServiceCenter.m */,
+				9B7DD1841BEFAA1000D9D4AE /* SubscriptionServiceCenterProtocol.h */,
 			);
 			path = ObserverPatternOC;
 			sourceTree = "<group>";
@@ -220,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B7DD1641BEFA04B00D9D4AE /* ViewController.m in Sources */,
+				9B7DD1831BEFA2EA00D9D4AE /* SubscriptionServiceCenter.m in Sources */,
 				9B7DD1611BEFA04B00D9D4AE /* AppDelegate.m in Sources */,
 				9B7DD15E1BEFA04B00D9D4AE /* main.m in Sources */,
 			);
